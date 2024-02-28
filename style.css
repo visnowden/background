@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+label[for='rgb'] {
+    cursor: pointer;
+    position: absolute;
+    background-color: aquamarine;
+    color: black;
+    padding: 0.4em;
+    border-radius: 0.5em;
+    top: 0.3em;
+    left: 0.3em;
+    transition: background-color 0.4s;
+    transition: color 0.4s;
+}
+
+label[for='rgb']:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 205, 162);
+    transition: background-color 0.4s;
+    transition: color 0.4s;
+}
+
+input#rgb {
+
+    left: 0.3em;
+    top: 1em;
+    position: absolute;
+    visibility: hidden;
+}
