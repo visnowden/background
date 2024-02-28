@@ -4,32 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-        body {
-            background-color: #555;
-        }
-
-        input {
-            height: 8em;
-            width: 8em;
-            cursor: pointer;
-            background: none;
-            margin: none;
-        }
-    </style>
 </head>
 
 <body id="body">
-    <input type="color" id="rgb" value="#000000">
+    <label for="rgb">Select color
+    </label>
+    <input class="color_menu" type="color" id="rgb" value="#000000">
+<script src="script.js"></script>
 </body>
-<script>
-    var input = document.getElementById("rgb")
-    var body = document.getElementById("body")
-
-    input.addEventListener("change", function () {
-        body.style.backgroundColor = input.value;
-    });
-</script>
-
 </html>
