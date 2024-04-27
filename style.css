@@ -1,5 +1,8 @@
-*{font-family: 'Times New Roman', Times, serif
-}body {
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -27,7 +30,6 @@ label[for='rgb']:hover {
 }
 
 input#rgb {
-
     left: 0.3em;
     top: 1em;
     position: absolute;
