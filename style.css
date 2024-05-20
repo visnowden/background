@@ -12,8 +12,8 @@ label[for='rgb'] {
     min-width: 0.4em;
     cursor: pointer;
     position: absolute;
-    background-color: aquamarine;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 0.4em;
     border-radius: 0.5em;
     top: 0.3em;
