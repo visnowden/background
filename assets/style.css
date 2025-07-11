@@ -1,37 +1,37 @@
 * {
-    font-family: 'Times New Roman', Times, serif
+  font-family: "Times New Roman", Times, serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-label[for='rgb'] {
-    min-height: 0.4em;
-    min-width: 0.4em;
-    cursor: pointer;
-    position: absolute;
-    background-color: black;
-    color: white;
-    padding: 0.4em;
-    border-radius: 0.5em;
-    top: 0.3em;
-    left: 0.3em;
-    transition: background-color 0.3s;
-    transition: color 0.3s;
+label[for="rgb"] {
+  min-height: 0.4em;
+  min-width: 0.4em;
+  cursor: pointer;
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 0.4em;
+  border-radius: 0.5em;
+  top: 0.3em;
+  left: 0.3em;
+  transition: background-color 0.3s;
+  transition: color 0.3s;
 }
 
-label[for='rgb']:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(77, 205, 162);
-    transition: background-color 0.3s;
-    transition: color 0.3s;
+label[for="rgb"]:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 205, 162);
+  transition: background-color 0.3s;
+  transition: color 0.3s;
 }
 
 input#rgb {
-    left: 0.3em;
-    top: 1em;
-    position: absolute;
-    visibility: hidden;
+  left: 0.3em;
+  top: 1em;
+  position: absolute;
+  visibility: hidden;
 }
